@@ -1,0 +1,5 @@
+CREATE TABLE 'all_users' (
+	'Id' INTEGER  NOT NULL PRIMARY KEY AUTOINCREMENT UNIQUE,
+	'chat_id' TEXT NOT NULL,
+    'username' TEXT NOT NULL
+);
